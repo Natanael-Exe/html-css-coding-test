@@ -1,14 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="stylesheet" src="./style/index.css"/>
-  <title>Html Css Coding Challenge</title>
-</head>
-<body>
-  
-  <script src="./index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Html Css Coding Challenge</title>
+  </head>
+  <body>
+    <div>
+      <!-- the navbar section begin-->
+      <nav id="navbar">
+        <h2 class="navbar__logo">Logo</h2>
+        <ul class="menu__row">
+          <li class="menu__col">
+            <a href="/#welcome">Home</a>
+          </li>
+          <li class="menu__col">
+            <a href="/#about">About</a>
+          </li>
+          <li class="menu__col">
+            <a href="/#projects">Projects</a>
+          </li>
+          
+          <li id="profile-link" class="menu__col">
+            <a href="https://github.com/Natanael-Exe" target="_blank">My Profile</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- the navbar section the end-->
+
+      <!-- the welcom section begin-->
+
+      <section id="welcome" class="hero">
+        <div class="hero__content">
+          <h1 class="hero__title">That's my Portfolio</h1>
+          <p class="hero__subtitle">lorem ipsum dolor sit amet, consectetur adipisicing elit
+            lorem ipsum dolor sit amet, consectetur adipisicing elit
+          </p>
+          <button class="hero__btn">Contact me</button>
+        </div>
+
+      </section>
+
+      <!-- the navbar section the end-->
+
+      <section id="projects">
+
+        <div class="projects__title">
+          <h2>Projects</h2>
+          <p>lorem ipsum dolor sit amet, consectetur adipisicing</p>
+        </div>
+        <div class="projects__grid">
+          <!-- project grid item  begin-->
+          <div class="project__grid-item">
+            <img src="./project_img1.jpg"/>
+            <h3>Project 1</h3>
+            <p>lorem ipsum dolor sit amet, consectetur adipisicing elitlorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            <button>Visit</button>
+          </div>
+          <!-- project grid item  the end-->
+
+          <!-- project grid item  begin-->
+          <div class="project__grid-item">
+            <img src="./project_img1.jpg"/>
+            <h3>Project 2</h3>
+            <p>lorem ipsum dolor sit amet, consectetur adipisicing elitlorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            <button>Visit</button>
+          </div>
+          <!-- project grid item  the end-->
+          <!-- project grid item  begin-->
+          <div class="project__grid-item">
+            <img src="./project_img1.jpg"/>
+            <h3>Project 3</h3>
+            <p>lorem ipsum dolor sit amet, consectetur adipisicing elitlorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            <button>Visit</button>
+          </div>
+          <!-- project grid item  the end-->
+          
+        </div>
+      </section>
+    </div>
+    <footer>Copyright &copy; Natanael & Lenin | 2021</footer>
+    <script src="./index.js"></script>
+  </body>
 </html>
