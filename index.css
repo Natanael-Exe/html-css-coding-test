@@ -60,6 +60,8 @@ a:active {
 }
 .hero__subtitle {
   font-size: 1.3rem;
+  width:70vw;
+  text-align: center;
 }
 .hero__btn {
   background: #d00000;
@@ -116,10 +118,11 @@ margin-bottom: 1rem;
   .hero__subtitle {
     font-size: 1rem;
     text-align: center;
+    width:auto;
   }
   .hero__content {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .project__grid-item {
     width: 80vw;
