@@ -22,6 +22,10 @@
 color:white;
 text-decoration:none;
 }
+
+.menu__col{
+  list-style-type: none;
+}
  a:visited{
   color:white;
 }
